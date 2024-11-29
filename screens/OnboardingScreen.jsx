@@ -29,7 +29,7 @@ const OnboardingScreen = () => {
             textColor={"white"}
             backgroundColor={"#007B5D"}
             style={styles.buttonContainer}
-            onPress={()=>navigation.navigate('duolingo')}
+            onPress={()=>navigation.navigate('numberValidation')}
           />
         </View>
         <View style={styles.onboardingContainer}>
@@ -47,7 +47,7 @@ const OnboardingScreen = () => {
             textColor={"white"}
             backgroundColor={"#007B5D"}
             style={styles.buttonContainer}
-            onPress={()=>navigation.navigate('duolingo')}
+            onPress={()=>navigation.navigate('numberValidation')}
           />
         </View>
         <View style={styles.onboardingContainer}>
