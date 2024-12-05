@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
         paddingTop: 40,
         paddingHorizontal:10,
         height: '100%',
-        // backgroundColor: 'red'
+        backgroundColor: 'red'
         // height: "100%",
     },
     flexedContent:{
