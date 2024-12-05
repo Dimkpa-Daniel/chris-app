@@ -14,8 +14,8 @@ export default function App() {
   <NavigationContainer>
     <Stack.Navigator initialRouteName='onboarding'>
       <Stack.Screen name="onboarding" component={OnboardingScreen} options={{headerShown: false}}/>
-      <Stack.Screen name='duolingo' component={Duolingo} options={{headerShown: false}} />
       <Stack.Screen name='numberValidation' component={NumberValidation} options={{headerShown: false}} />
+      <Stack.Screen name='duolingo' component={Duolingo} options={{headerShown: false}} />
     </Stack.Navigator>
   </NavigationContainer>
   );
