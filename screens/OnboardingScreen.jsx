@@ -1,11 +1,8 @@
 import { Image, StyleSheet, Text, View, Button } from "react-native";
 import React from "react";
 import CustomButton from "../components/CustomButton";
-import Onboarding from "react-native-onboarding-swiper";
 import Swiper from "react-native-swiper";
 import { useNavigation } from "@react-navigation/native";
-
-// npm i react-native-swiper
 
 const OnboardingScreen = () => {
   const navigation = useNavigation();

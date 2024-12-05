@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/splash.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dimkpad.firstapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
