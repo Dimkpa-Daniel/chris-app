@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import OnboardingScreen from './screens/OnboardingScreen';
 import Duolingo from './screens/Duolingo';
 import NumberValidation from './screens/NumberValidation';
+import BottomTabScreens from './screens/BottomTabScreens';
 
 const Stack = createStackNavigator();
 
@@ -15,6 +16,7 @@ export default function App() {
     <Stack.Navigator initialRouteName='onboarding'>
       <Stack.Screen name="onboarding" component={OnboardingScreen} options={{headerShown: false}}/>
       <Stack.Screen name='numberValidation' component={NumberValidation} options={{headerShown: false}} />
+      <Stack.Screen name='bottomTab' component={BottomTabScreens} options={{headerShown: false}} />
       <Stack.Screen name='duolingo' component={Duolingo} options={{headerShown: false}} />
     </Stack.Navigator>
   </NavigationContainer>

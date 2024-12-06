@@ -3,8 +3,10 @@ import React from 'react';
 import PhoneNumberInput from '../components/PhoneNumberInput';
 import CustomButton from '../components/CustomButton';
 import { StatusBar } from 'expo-status-bar';
+import { useNavigation } from '@react-navigation/native';
 
 const NumberValidation = () => {
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <StatusBar translucent={true} backgroundColor="#808080" />
@@ -35,6 +37,7 @@ const NumberValidation = () => {
             backgroundColor={"#007B5D"}
             style={styles.buttonContainer}
             buttonStyle={styles.buttonStyle}
+            onPress={()=>navigation.navigate('bottomTab')}
           />
     </View>
   )
@@ -47,7 +50,7 @@ const styles = StyleSheet.create({
         paddingTop: 40,
         paddingHorizontal:10,
         height: '100%',
-        backgroundColor: 'red'
+        backgroundColor: 'white'
         // height: "100%",
     },
     flexedContent:{
